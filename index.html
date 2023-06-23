@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Fitness</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+    <div class="nav-container" id="nav-container">
+        <div class="navwrapper">
+            <div class="brand">
+                <div class="brand-logo">
+                    <img src="assets/logo.png" alt="logo">
+                </div>
+                <h1>Fitness </h1>
+            </div>
+            <a class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="nav">
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#trainer">Trainer</a>
+                    </li>
+                    <li>
+                        <a href="#review">Review</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section class="home" id="home"> 
+        <div class="hero">
+            <img src="assets/hero.png" alt="hero">
+            <div class="hero-text">
+                <h1>We Dont Just Practice But Calms The Soul</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore enim quas cum cumque aut inventore omnis repellendus fugiat hic officia quos earum, ut, dignissimos nobis laudantium numquam in, qui dolorem!</p>
+            </div>
+        </div>
+    </section>
+    <section class="aboutUs">
+        <div class="about-banner">
+            <ul>
+                <li>Beginner Friendly</li>
+                <li>Solid Community</li>
+                <li>Free Consultation</li>
+                <li>Trainer Professional</li>
+            </ul>
+        </div>
+        <div class="about-hero" id="about">
+            <div class="about-hero-content">
+                <a class="youtube" href="https://www.youtube.com/" target="_blank">
+                <img src="assets/hero3.png" alt="">
+                </a>
+                <div class="about-text">
+                    <div class="about-left">
+                        <h1>Fitness is The Best Solution For You</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolorem cumque eum placeat! Enim, sapiente modi! Modi, voluptatem qui! Ut asperiores quibusdam excepturi dignissimos esse eos magni animi dolores, delectus perferendis? Qui, praesentium accusamus at laboriosam optio cum, in quisquam sunt facilis explicabo autem repellendus deserunt sequi officia dolor! Beatae.</p>
+                        <button>Contact Now</button>
+                    </div>
+                    <div class="about-right">
+                        <div class="about-right-text">
+                            <h1>Contact Us!</h1>
+                            <div class="icon" onclick="sendEmail()">
+                                <i class="fa-regular fa-envelope"></i>
+                                <div class="icon-text">
+                                    <b>Email</b>
+                                    <p>ecotourtravelkarimunjawa@gmail.com</p>
+                                </div>
+                            </div> 
+                            <div class="icon" onclick="sendMessage()">
+                                <i class="fa-solid fa-phone"></i>
+                                <div class="icon-text">
+                                    <b>Phone</b>
+                                    <p>0858-0033-1815</p>
+                                </div>
+                            </div>
+                            <div class="icon" onclick="openGoogleMaps()">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div class="icon-text">
+                                    <b>Address</b>
+                                    <p>Jl. Bukit Kapuran, Karimunjawa, RT 04 RW 01 Jepara</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="trainer" id="trainer">
+        <div class="trainer-content">
+            <div class="trainer-banner">
+                <img src="assets/trainerbanner.png" alt="trainer-banner">
+                <div class="trainer-banner-text">
+                    <h1>Trainer Professional</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt et a labore, cupiditate id cumque eaque eligendi sint, quia architecto eos!</p>
+                </div>
+            </div>
+                <div class="trainer-lists">
+                    <div class="trainer-list">
+                        <img src="assets/trainer1.png" alt="">
+                    </div>
+                    <div class="trainer-list">
+                        <img src="assets/trainer2.png" alt="">
+                    </div>
+                    <div class="trainer-list">
+                        <img src="assets/trainer3.png" alt="">
+                    </div>
+                    <div class="trainer-list">
+                        <img src="assets/trainer4.png" alt="">
+                    </div>
+                </div>
+            
+        </div>
+    </section>
+    <section class="review" id="review">
+        <div class="review-content">
+            <h1>They Are Happy Members</h1>
+            <div class="cards">
+                <div class="review-card">
+                    <div class="card-detail">   
+                        <img src="assets/review1.png" alt="">
+                        <div class="card-detail-text">
+                            <h3>Phone</h3>
+                            <b>Teacher</b>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum doloremque delectus numquam ullam</p>
+                </div>
+                <div class="review-card">
+                    <div class="card-detail">   
+                        <img src="assets/review2.png" alt="">
+                        <div class="card-detail-text">
+                            <h3>Jessica</h3>
+                            <b>CEO</b>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum doloremque delectus numquam ullam</p>
+                </div>
+                <div class="review-card">
+                    <div class="card-detail">   
+                        <img src="assets/review3.png" alt="">
+                        <div class="card-detail-text">
+                            <h3>Ozzie</h3>
+                            <b>Designer</b>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum doloremque delectus numquam ullam</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer-banner">
+            <h1>Join Our Member Now!</h1>
+            <button><a href="#about">Contact</a></button>
+        </div>
+        <div class="footer-content">
+            <div class="footer-inner">
+                <div class="brand-footer">
+                    <div class="brand-logo-footer">
+                        <img src="assets/logo.png" alt="logo">
+                    </div>
+                    <h1>Fitness </h1>
+                </div>
+                <div class="footer-list">
+                    <ul>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Trainer</li>
+                        <li>Program</li>
+                        <li>Contact</li>
+                    </ul>
+                    <hr>
+                    <p><span>&#169</span> 2023 Fitness. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
